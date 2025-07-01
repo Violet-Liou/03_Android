@@ -13,7 +13,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         //EdgeToEdge.enable(this);
-        setContentView(R.layout.activity_constraintlayout); //把某個特定的內容載到畫面上，看要顯示哪個View的畫面
+        setContentView(R.layout.activity_homework_03); //把某個特定的內容載到畫面上，看要顯示哪個View的畫面
         //ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
         //    Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
         //    v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
