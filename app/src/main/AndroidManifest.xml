@@ -14,7 +14,34 @@
         tools:targetApi="31">
         <activity
             android:name=".MainActivity"
-            android:exported="true">
+            android:exported="false" />
+        <activity
+            android:name=".Activity_Button_java"
+            android:exported="false" />
+        <activity
+            android:name=".Activity_Textview_java"
+            android:exported="false" />
+        <activity
+            android:name=".Activity_ImageView_java"
+            android:exported="false" />
+        <activity
+            android:name=".Activity_OnTouch_Java"
+            android:exported="false" />
+        <activity
+            android:name=".Activity_Edittext_Java"
+            android:exported="false" />
+        <activity
+            android:name=".Activity_KeyListener_Java"
+            android:exported="false" />
+        <activity
+            android:name=".Activity_NumberKeyListener_Java"
+            android:exported="false" />
+        <activity
+            android:name=".Activity_Checkbox_Java"
+            android:exported="false"/>
+        <activity
+            android:name=".Activity_Radiobutton_Java"
+            android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
